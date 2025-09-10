@@ -1,0 +1,7 @@
+print("/  : Chia thuc, ket qua la so thuc (float)")
+print("// : Chia lay phan nguyen (floor division)")
+print("%  : Chia lay du (modulo)")
+print("** : Luy thua (so mu)")
+print("and: Toan tu logic AND, dung khi ca 2 deu True")
+print("or : Toan tu logic OR, dung khi 1 trong 2 True")
+print("is : So sanh 2 bien co cung tro toi 1 doi tuong hay khong")

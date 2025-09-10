@@ -1,0 +1,8 @@
+print("Cac loai ghi chu trong Python:")
+print("1. Ghi chu mot dong: dung dau #")
+print("Vi du: # Day la ghi chu mot dong")
+print("2. Ghi chu nhieu dong: dung '''...''' hoac \"\"\"...\"\"\"")
+print("Vi du:")
+print("'''")
+print("Day la ghi chu nhieu dong")
+print("'''")

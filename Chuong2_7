@@ -1,0 +1,6 @@
+print("Cac cach nhap du lieu tu ban phim trong Python:")
+print("1. input()           : nhap chuoi")
+print("2. int(input())      : nhap so nguyen")
+print("3. float(input())    : nhap so thuc")
+print("4. input().split()   : nhap nhieu gia tri (chuoi)")
+print("5. map(int, input().split()): nhap nhieu so nguyen")
