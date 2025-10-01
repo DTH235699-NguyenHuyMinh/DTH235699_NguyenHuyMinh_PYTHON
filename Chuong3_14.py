@@ -1,0 +1,1 @@
+print("Đáp án: Có 2000 dấu * được in ra màn hình")
