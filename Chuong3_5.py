@@ -1,4 +1,3 @@
-# Nhập giá trị cho i, j, k từ bàn phím
 i = int(input("Nhập i: "))
 j = int(input("Nhập j: "))
 k = int(input("Nhập k: "))

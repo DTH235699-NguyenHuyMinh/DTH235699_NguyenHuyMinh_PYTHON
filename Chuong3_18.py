@@ -1,6 +1,5 @@
 n = int(input("Nhập chiều cao n: "))
 
-# Hình vuông rỗng
 print("Hình vuông rỗng:")
 for i in range(n):
     if i == 0 or i == n - 1:
@@ -10,14 +9,12 @@ for i in range(n):
 
 print()
 
-# Hình tam giác vuông cân (nguyên)
 print("Hình tam giác vuông cân:")
 for i in range(1, n + 1):
     print('* ' * i)
 
 print()
 
-# Hình chữ nhật rỗng (chiều rộng là n, chiều cao là n-1)
 print("Hình chữ nhật rỗng:")
 for i in range(n - 1):
     if i == 0 or i == n - 2:

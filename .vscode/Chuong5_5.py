@@ -1,0 +1,32 @@
+s = input("Nhập vào một chuỗi: ")
+
+in_hoa = 0
+in_thuong = 0
+chu_so = 0
+ky_tu_dac_biet = 0
+khoang_trang = 0
+nguyen_am = 0
+
+nguyen_am_list = "aeiouAEIOU"
+
+for ch in s:
+    if ch.isupper():
+        in_hoa += 1
+    elif ch.islower():
+        in_thuong += 1
+    elif ch.isdigit():
+        chu_so += 1
+    elif ch == " ":
+        khoang_trang += 1
+    else:
+        ky_tu_dac_biet += 1
+
+    if ch in nguyen_am_list:
+        nguyen_am += 1
+
+print("Số ký tự IN HOA =", in_hoa)
+print("Số ký tự in thường =", in_thuong)
+print("Số ký tự chữ số =", chu_so)
+print("Số ký tự khoảng trắng =", khoang_trang)
+print("Số ký tự đặc biệt =", ky_tu_dac_biet)
+print("Số ký tự nguyên âm =", nguyen_am)

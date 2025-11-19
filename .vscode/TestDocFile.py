@@ -1,0 +1,27 @@
+from XuLyFile import *
+
+dssp = DocFile("database.txt")
+
+def XuatSanPham(dssp):
+    for row in dssp:
+        for element in row:
+            print(element, end='\t')
+        print()
+    print()
+
+print("Danh sách sản phẩm:")
+XuatSanPham(dssp)
+
+def SortSp(dssp):
+    for i in range(len(dssp)):
+        for j in range(len(dssp)):
+            a = dssp[i]
+            b = dssp[j]
+            if float(a[2]) > float(b[2]):  # chuyển về float để so sánh giá
+                dssp[i] = b
+                dssp[j] = a
+
+SortSp(dssp)
+
+print("Sản phẩm sau khi sắp xếp giá giảm dần:")
+XuatSanPham(dssp)

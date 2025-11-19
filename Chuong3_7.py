@@ -11,12 +11,10 @@ def days_in_month(month, year):
     else:
         return 0
 
-# Nhập ngày, tháng, năm
 day = int(input("Nhập ngày: "))
 month = int(input("Nhập tháng: "))
 year = int(input("Nhập năm: "))
 
-# Tìm ngày kế tiếp
 if day < days_in_month(month, year):
     day += 1
 else:
@@ -27,4 +25,4 @@ else:
     else:
         month += 1
 
-print(f"Ngày kế tiếp là: {day}/{month}/{
+print(f"Ngày kế tiếp là: {day}/{month}/{year}")
